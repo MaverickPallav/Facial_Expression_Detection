@@ -7,7 +7,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Ya2oOP9qImroYv5mFP9gWhvWMJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -85,6 +96,9 @@
       <workItem from="1583309125501" duration="2942000" />
       <workItem from="1583417746525" duration="679000" />
       <workItem from="1583441726802" duration="371000" />
+      <workItem from="1583509558670" duration="119000" />
+      <workItem from="1583590033012" duration="5323000" />
+      <workItem from="1583660960744" duration="2219000" />
     </task>
     <servers />
   </component>
@@ -92,33 +106,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1583442097317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2312" y="89" key="#Notifications" timestamp="1583608503673">
+      <screen x="1920" y="0" width="1600" height="860" />
+    </state>
+    <state x="2312" y="89" key="#Notifications/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583608503673" />
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom" timestamp="1583663069479">
+      <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1583442097317" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583176134047" />
+    <state width="1557" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583663069479" />
     <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583312068380" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1583442097317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="221" key="GridCell.Tab.0.center" timestamp="1583663069479">
+      <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1583442097317" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583176134047" />
+    <state width="1557" height="221" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583663069479" />
     <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583312068379" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1583442097317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="221" key="GridCell.Tab.0.left" timestamp="1583663069479">
+      <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1583442097317" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583176134047" />
+    <state width="1557" height="221" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583663069479" />
     <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583312068379" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1583442097317">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right" timestamp="1583663069479">
+      <screen x="1920" y="0" width="1600" height="860" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1583442097317" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583176134047" />
+    <state width="1557" height="221" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.860@1920.0.1600.860" timestamp="1583663069479" />
     <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583312068379" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Facial_Expression_Detection_master$main.coverage" NAME="main Coverage Results" MODIFIED="1583441951347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Facial_Expression_Detection_master$cam.coverage" NAME="cam Coverage Results" MODIFIED="1583311508446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Facial_Expression_Detection_master$main.coverage" NAME="main Coverage Results" MODIFIED="1583663069470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Facial_Expression_Detection_master$cam.coverage" NAME="cam Coverage Results" MODIFIED="1583663067027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>

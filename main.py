@@ -3,6 +3,7 @@ import cv2
 import csv
 import time
 from src.cam import takeSnap
+from src.cam import DisplayCamera
 from keras.models import load_model
 
 from keras.preprocessing import image
@@ -13,7 +14,8 @@ import matplotlib.pyplot as plt
 
 countdown = 10;
 
-
+DisplayCamera()
+file = "snap.jpg"
 def emotion_analysis(emotions):
     objects = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
     y_pos = np.arange(len(objects))
@@ -30,20 +32,6 @@ def emotion_analysis(emotions):
 
     plt.show()
 
-takeSnap()
-file = "snap.jpg"
-model = load_model('models/model.h5')
-# file = 'photo.jpg'
-# true_image = image.load_img("images/CROPPED"+file)
-img = image.load_img("images/CROPPED" + file, color_mode="grayscale", target_size=(48, 48))
-
-x = image.img_to_array(img)
-x = np.expand_dims(x, axis=0)
-
-x /= 255
-
-custom = model.predict(x)
-emotion_analysis(custom[0])
 
 while countdown > 0:
     time.sleep(1)
