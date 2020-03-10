@@ -16,6 +16,11 @@ countdown = 10;
 
 DisplayCamera()
 file = "snap.jpg"
+
+f = open("mycsv.csv","w")
+f.truncate()
+f.close()
+
 def emotion_analysis(emotions):
     objects = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
     y_pos = np.arange(len(objects))
